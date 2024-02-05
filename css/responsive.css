@@ -54,4 +54,9 @@
         text-decoration: none;
         color: white;
     }
+
+    .banner {
+        background-position: center;
+        background-position: -120px;
+    }
 }
