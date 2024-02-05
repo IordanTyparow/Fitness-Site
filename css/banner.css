@@ -1,10 +1,9 @@
 .banner {
     width: 100%;
-    background-attachment: fixed;
     background-image: url(../image/fitness-main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 -300px;
+    background-position: center;
     height: 500px;
 }
 
