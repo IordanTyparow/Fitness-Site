@@ -7,11 +7,6 @@
         padding-left: 0em;
     }
 
-    .upper-header div:first-child ul li {
-        text-decoration: none;
-        color: white;
-    }
-
     .down-header {
         justify-content: center;
     }
@@ -48,12 +43,15 @@
         display: flex;
         height: 55px;
         align-items: center;
-        justify-content: center;
-        gap: 0.7em;
-        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     header .upper-header :last-child ul {
         padding-right: 0em;
+    }
+
+    .upper-header div:first-child ul li {
+        text-decoration: none;
+        color: white;
     }
 }
