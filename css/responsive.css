@@ -1,0 +1,24 @@
+@media (width <= 600px) {
+    .upper-header div:first-child {
+        padding-left: 1em;
+    }
+
+    .down-header ul {
+        gap: 1em;
+    }
+
+    .desc h1 {
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 1em;
+        padding: 20px 0px;
+    }
+
+    .container-coaches {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+}
