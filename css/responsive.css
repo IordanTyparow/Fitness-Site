@@ -52,4 +52,8 @@
         gap: 0.7em;
         flex-wrap: wrap;
     }
+
+    header .upper-header :last-child ul {
+        padding-right: 0em;
+    }
 }
