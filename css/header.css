@@ -50,6 +50,7 @@ header div:nth-child(2) span {
 .down-header ul {
     display: flex;
     gap: 5em;
+    padding-right: 5em;
     padding-top: 20px;
 }
 
