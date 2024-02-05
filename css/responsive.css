@@ -3,8 +3,13 @@
         font-size: 12px;
     }
 
-    .upper-header div:first-child {
-        padding-left: 1em;
+    header div:first-child {
+        padding-left: 0em;
+    }
+
+    .upper-header div:first-child ul li {
+        text-decoration: none;
+        color: white;
     }
 
     .down-header {
@@ -18,9 +23,14 @@
     }
 
     .desc h1 {
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         padding-top: 70px;
+    }
+
+    .desc p {
+        font-size: 15px;
+        text-align: center;
     }
 
     .container {
