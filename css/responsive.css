@@ -1,10 +1,15 @@
 @media (width <= 600px) {
+    html {
+        font-size: 12px;
+    }
+
     .upper-header div:first-child {
         padding-left: 1em;
     }
 
     .down-header ul {
         gap: 1em;
+        padding-right: 20px;
     }
 
     .desc h1 {

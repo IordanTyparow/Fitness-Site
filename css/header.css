@@ -11,7 +11,7 @@ header {
     align-items: center;
 }
 
-header div:last-child ul {
+header .upper-header :last-child ul {
     display: flex;
     padding-right: 4em;
 }
@@ -48,6 +48,7 @@ header div:nth-child(2) span {
 }
 
 .down-header ul {
+    display: flex;
     gap: 5em;
     padding-top: 20px;
 }
